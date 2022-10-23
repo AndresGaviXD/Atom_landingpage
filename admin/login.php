@@ -15,6 +15,8 @@ if(isset($_POST['user']))
     if($usuario == TRUE)
     {
         header("Location:panel.php");
+    } else{
+        header("Location:index_login.php");
     }
 }
 ?>

@@ -8,7 +8,7 @@ class Conexion{
     {
         try {
  
-            $this->dbh = new PDO('mysql:host=localhost;dbname=atom_blog', 'root', '');
+            $this->dbh = new PDO('mysql:host=localhost;dbname=atom_blog', 'root', '1234');
             $this->dbh->exec("SET CHARACTER SET utf8");
  
         } catch (PDOException $e) {
