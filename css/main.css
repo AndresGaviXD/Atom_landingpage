@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    background:  #fff;
+}
+body{
+    position: relative;
+    background: linear-gradient(to bottom, #992626, #c5a7a7);
+}
+header{
+    padding: 20px;
+    width: calc(100% - 5px);
+    z-index: 2;
+}
+.content-header{
+    max-width: 1400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto 200px 200px 200px;
+}
+.logo img{
+    height: 200px;
+}
+.item{
+    line-height: 150px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.item:hover{
+    background: #822e2e;
+}
+.content-banner{
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    height: 360px;
+}
+.banner-text{
+    padding: 10px;
+    width: calc(60% - 20px);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.banner-text h1{
+    width: 500px;
+    text-align: right;
+}
+.banner-text p{
+    margin-top: 20px;
+    width: 500px;
+    text-align: right;
+}
+.banner-img{
+    padding: 10px;
+    width: calc(40% - 20px);
+}
+.banner-img img{
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    margin-top: 20px;
+    width: 350px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 23px;
+}
+p{
+    font-size: 18px;
+    line-height: 25px;
+
+}
+button{
+    background-color: #ff7d7d;
+    border-style: none;
+    border-radius: 15px;
+    color: #fff;
+    padding: 15px 23px;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+body svg{
+    transform: translateY(10px);
+    position: relative;
+}
+.contents{
+    width: 100%;
+    background: #273036;
+    color: rgb(223, 208, 208);
+}
+.contents section{
+    max-width: 1200px;
+    margin: auto;
+}
+.div-flex{
+    display: flex;
+}
+.parts{
+    padding: 10px;
+    width: 50%;
+}
+.content-img{
+    transition: 1s;
+    overflow: hidden;
+    padding: 40px;
+    width: 100%;
+    height: 300px;
+}
+.img{
+    background-image: url(../assets/img/menu.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-10deg);
+    border-radius: 10px;
+    transition: 1s;
+}
+.content-img:hover .img{
+    transform: rotate(0deg) translate(-30px, -30px);
+    width: calc(100% + 60px);
+    height: calc(100% + 60px);
+    background-image: url(../assets/img/gameplay.jpg);
+}
+.parts p{
+    margin-top: 20px;
+}
+.contents section h1{
+    padding: 20 20px;
+    color: rgb(223, 208, 208);
+}
+section:nth-child(2){
+    margin: 10px auto;
+}
+.contents section:nth-child(2) h1{
+    text-align: right;
+}
+#juegos .div-grid{
+    margin-top: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+.content-img-juegos{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+.content-img-juegos img{
+    width: 300px;
+    transition: 1s;
+}
+.content-img-juegos img:hover{
+    width: calc(100% + 60px);
+    margin: -30px 0 0 -30px;
+}
+.grid-item h3,.grid-item p{
+    padding: 5px;
+    text-align: center;
+}
+.grid-item p{
+    font-size: 15px;
+    line-height: 20px;
+}
+#contacto h1{
+    text-align: center;
+    padding: 0 10px;
+    margin: 50px 0 10px 0;
+}
+input{
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+textarea{
+    padding: 10px;
+    font-size: 15px;
+    width: 100%;
+    height: 80px;
+}
+.parts h4{
+    margin: 20px auto;
+}
+a{
+    text-decoration: none;
+    color: #fff;  
+}
+footer{
+    color: #273036;
+    background: #273036;
+    width: 100%;
+}
+footer p{
+    padding: 40px;
+    font-size: 14px;
+}
